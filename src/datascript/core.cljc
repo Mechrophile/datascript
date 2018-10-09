@@ -3,7 +3,7 @@
   (:require
     [datascript.db :as db #?@(:cljs [:refer [FilteredDB]])]
     [datascript.pull-api :as dp]
-    [datascript.query :as dq]
+    [datascript.query-v3 :as dq]
     [datascript.impl.entity :as de]
     [datascript.btset :as btset])
   #?(:clj
